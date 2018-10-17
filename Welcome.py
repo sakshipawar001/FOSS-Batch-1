@@ -1,6 +1,5 @@
-print("Welcome to Github Repository.")
+anprint("Welcome to Github Repository.")
 print ("roll no. 34 & 28","continue and break func.")
 print("Roll No. 21,12, 'print prime numbers in an interval '")
-print("Roll No 33,25, 'input function'")
-print("Roll No. 11 & 29 ","added D!fferent $tring Functions program").
-print("roll no.36,23","If-Else program")
+print("Roll number is 3 and 32, 'factorials.py'")
+print("roll number is 08 and 02,'while loop'")
