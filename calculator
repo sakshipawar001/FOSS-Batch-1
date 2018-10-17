@@ -1,0 +1,12 @@
+name = input("What is your name?: ")
+age = int(input("What is your age?: "))
+ddate = int(input("When do you think you will die?: "))
+a = 8760 * age
+b = 525600 * age
+c = 31536000 * age
+x = ddate - age
+d = 8760 * x
+e = 525600 * x
+f = 31536000 * x
+print(name, "you have lived for", a, "hours", b, "minutes", c, "seconds")
+print("You are going to die in", d, "hours", e, "minutes", f, "seconds")
