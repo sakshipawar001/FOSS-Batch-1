@@ -1,9 +1,9 @@
 #If-else statements in Python
 num =int(input("Enter a Number:-"))
 if num > 0:
-    print(num, "is a positive number.")
+    print("{} is a positive number.".format(num))
 else:
-  print(num,"is a negative number.")
+  print("{} is a negative number.".format(num))
 
 
 
