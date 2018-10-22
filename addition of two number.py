@@ -5,4 +5,4 @@ second_number=int(input("enter 2nd number=")) #user input of second number
 
 total=(first_number + second_number) #formula for addition of two number
 
-print("the addition of ",first_number,"and ",second_number,"is ",total)
+print("the addition of {} and {} is {}".format(first_number,second_number,total))
