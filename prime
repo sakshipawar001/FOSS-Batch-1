@@ -1,4 +1,4 @@
-x=int(input("enter a:"))
+x=int(input("enter x:"))
 i=2
 g=0
 h=0
@@ -11,9 +11,9 @@ while(i<x):
         i=i+1
 
 if(g==0):
-    print("prime")
+    print("{} is a prime number".format(x))
 
 else:
-    print("not a prime")
+    print("{} is not a prime".format(x))
 
         
