@@ -1,6 +1,6 @@
-a=6
-b=4
+a=int(input("enter first number="))
+b=int(input("enter second number="))
 if(a>b):
-print("a is greater")
+print("{} is greater than {}".format(a,b))
 else:
-print("b is greater")
+print("{} is greater than {}".format(b,a))
