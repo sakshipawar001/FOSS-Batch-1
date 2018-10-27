@@ -1,5 +1,4 @@
 x=int(input("Enter the first number:"))
 y=int(input("Enter the second number:"))
-print(x)
-print(y)
-print("The sum of two numbers is,"x+y)
+c=x+y
+print("The sum of {} and {} is={}".format(x,y,c))
