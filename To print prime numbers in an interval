@@ -1,6 +1,6 @@
 x = int(input("Enter lower range: "))
 y = int(input("Enter upper range: "))
-print("Prime numbers between",x,"and",y,"are:")
+print("Prime numbers between {} and {} are:".format(x,y))
 for num in range(x,y + 1):
 if num > 1:
 for i in range(2,num):
