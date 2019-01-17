@@ -1,6 +1,7 @@
-def area()
-r=int(input("enter no"))
-pi=3.14
-c=pi*pow(r,2)
-print(c)
-area()
+def area():
+    r=int(input("enter no"))
+    pi=3.14
+    c=pi*pow(r,2)
+    print(c)
+    area()
+    return()
